@@ -81,3 +81,13 @@ Example:
 	-rwxr-xr-x@ 1 501 20 18 Jan 25 00:41 4-listmorefiles
 	-rwxr-xr-x@ 1 501 20 18 Jan 25 00:43 5-listfilesdigitonly
 	$
+
+## [6-firstdirectory](6-firstdirectory "Create directory")
+Create a script that creates a directory named my_first_directory in the /tmp/ directory.
+
+Example:
+
+	$ ./6-firstdirectory
+	$ file /tmp/my_first_directory/
+	/tmp/my_first_directory/: directory
+	$
