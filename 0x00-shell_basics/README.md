@@ -147,3 +147,17 @@ Example
 	$ubuntu@ip-172-31-63-244:~$ ./12-file_type
 	$/tmp/iamafile: ELF 64-bit LSB  executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.24, BuildID[sha1]=bd39c07194a778ccc066fc963ca152bdfaa3f971, stripped
 Note that depending on the file, the output of your script will be different.
+
+## [13-symbolic_link](13-symbolic_link "Create my Symbol")
+Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
+
+	$ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
+	total 144
+	drwxrwxr-x  2 ubuntu ubuntu   4096 Sep 20 03:24 .
+	drwxrwxrwt 12 root   root   139264 Sep 20 03:24 ..
+	ubuntu@ip-172-31-63-244:/tmp/sym$./13-symbolic_link
+	ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
+	total 144
+	drwxrwxr-x  2 ubuntu ubuntu   4096 Sep 20 03:24 .
+	drwxrwxrwt 12 root   root   139264 Sep 20 03:24 ..
+	lrwxrwxrwx  1 ubuntu ubuntu      7 Sep 20 03:24 __ls__ -> /bin/ls
