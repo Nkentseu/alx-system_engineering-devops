@@ -112,3 +112,13 @@ Example:
 	$ ./8-firstdelete
 	$ ls /tmp/my_first_directory/
 	$
+
+## [9-firstdirdeletion](9-firstdirdeletion "Delete folther")
+Delete the directory my_first_directory that is in the /tmp directory.
+
+Example:
+
+	$ ./9-firstdirdeletion
+	$ file /tmp/my_first_directory
+	/tmp/my_first_directory: cannot open `/tmp/my_first_directory' (No such file or directory)
+	$
