@@ -1,0 +1,22 @@
+#!/bin/bash
+# Define the source and destination directories
+src_dir=$(pwd)
+dst_dir=$(dirname "$src_dir")
+# Copy all HTML files from the current directory to the parent directory
+for file in "$src_dir"/*.html; do
+	# Get the file name without the path
+	file_name=$(basename "$file")
+	# Check if the file exists in the destination directory
+	if [ -f "$dst_dir/$file_name" ]; then
+		# Compare the modification times of the source and destination files
+		src_mtime=$(stat -c %Y "$file")
+		dst_mtime=$(stat -c %Y "$dst_dir/$file_name")
+		# Only copy the file if it's newer than the version in the destination directory
+		if [ "$src_mtime" -gt "$dst_mtime" ]; then
+			cp "$file" "$dst_dir"
+		fi
+	else
+		# The file doesn't exist in the destination directory, so copy it
+		cp "$file" "$dst_dir"
+	fi
+done
