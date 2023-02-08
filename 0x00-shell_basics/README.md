@@ -13,12 +13,10 @@ Example:
 ## [1-listit](1-listit "List the content of this repository")
 Display the contents list of your current directory.
 
-Example:  
-	```  
+Example:    
   
 	$ ./1-listit  
 	Applications    Documents   Dropbox Movies Pictures  
 	Desktop Downloads   Library Music Public  
 	$
-  
-	```
+
