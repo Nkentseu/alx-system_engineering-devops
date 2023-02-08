@@ -122,3 +122,16 @@ Example:
 	$ file /tmp/my_first_directory
 	/tmp/my_first_directory: cannot open `/tmp/my_first_directory' (No such file or directory)
 	$
+
+## [10-back](10-back "Change me")
+Write a script that changes the working directory to the previous one.
+
+	$julien@ubuntu:/tmp$ pwd
+	/tmp
+	$julien@ubuntu:/tmp$ cd /var
+	$julien@ubuntu:/var$ pwd
+	/var
+	$julien@ubuntu:/var$ source ./10-back
+	/tmp
+	$julien@ubuntu:/tmp$ pwd
+	/tmp
