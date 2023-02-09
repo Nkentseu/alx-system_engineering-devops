@@ -171,3 +171,13 @@ You can consider that all HTML files have the extension .html
 Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 
 You can assume that the directory /tmp/u will exist when we will run your script
+
+## [101-clean_emacs](101-clean_emacs "clean emacs")
+Create a script that deletes all files in the current working directory that end with the character ~.
+
+	ubuntu@ip-172-31-63-244:/tmp/sym$ ls
+	main.c  main.c~  Makefile~
+	ubuntu@ip-172-31-63-244:/tmp/sym$ ./101-clean_emacs
+	ubuntu@ip-172-31-63-244:/tmp/emacs$ ls
+	main.c
+	ubuntu@ip-172-31-63-244:/tmp/emacs$
