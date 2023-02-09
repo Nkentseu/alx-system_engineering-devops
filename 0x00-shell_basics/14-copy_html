@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ -name "*.html" -size +0 | xargs -I{} rsync -av {} ../
+cp -u *.html ..
