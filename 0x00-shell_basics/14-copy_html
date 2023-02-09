@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -av --ignore-existing ./ *.html ..
+find ./ -name "*.html" -size +0 -exec rsync -av {} ../ \;
