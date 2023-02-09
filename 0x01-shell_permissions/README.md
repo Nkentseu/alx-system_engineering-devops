@@ -15,3 +15,6 @@ Note: depending on the user, you will get a different output.
 
 ## [3. New owner](3-new_owner "owner")
 Write a script that changes the owner of the file hello to the user betty.
+
+## [4. Empty!](4-empty "Empty")
+Write a script that creates an empty file called hello.
