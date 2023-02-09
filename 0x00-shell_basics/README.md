@@ -181,3 +181,8 @@ Create a script that deletes all files in the current working directory that end
 	ubuntu@ip-172-31-63-244:/tmp/emacs$ ls
 	main.c
 	ubuntu@ip-172-31-63-244:/tmp/emacs$
+
+## [102-tree](102-tree "Tree")
+Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+
+You are only allowed to use two spaces (and lines) in your script, not more.
