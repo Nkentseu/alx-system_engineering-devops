@@ -1,2 +1,3 @@
 #!/bin/bash
-find ./ -name "*.html" -size +0 -exec rsync -av {} ../ \;
+#!/bin/bash
+find ./ -name "*.html" -size +0 | xargs -I{} rsync -av {} ../
