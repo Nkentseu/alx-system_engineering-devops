@@ -42,3 +42,10 @@ Write a script that sets the permission to the file hello as follows:
 * Group: no permission at all
 * Other users: all the permissions
 The file hello will be in the working directory You are not allowed to use commas for this script
+
+## [9. John Doe](9-John_Doe "John")
+Write a script that sets the mode of the file hello to this:
+
+	-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
+* The file hello will be in the working directory
+* You are not allowed to use commas for this script
