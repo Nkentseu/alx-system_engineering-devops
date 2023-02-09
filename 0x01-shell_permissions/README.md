@@ -29,3 +29,8 @@ Write a script that adds execute permission to the owner and the group owner, an
 
 * The file hello will be in the working directory
 
+## [7. Everybody!](7-everybody "tout le monde")
+Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello
+
+* The file hello will be in the working directory
+* You are not allowed to use commas for this script
