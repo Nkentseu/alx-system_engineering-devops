@@ -77,5 +77,10 @@ Write a script that changes the owner and the group owner of _hello to vincent a
 * The file _hello is in the working directory
 * The file _hello is a symbolic link
 
+## [16. If only](102-if_only "Only")
+Write a script that changes the owner of the file hello to betty only if it is owned by the user guillaume.
+
+* The file hello will be in the working directory
+
 ## [17. Star Wars](103-Star_Wars "star wars")
 Write a script that will play the StarWars IV episode in the terminal.
