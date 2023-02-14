@@ -85,3 +85,6 @@ Example:
 	_astris:*:245:245:Astris Services:/var/db/astris:/usr/bin/false
 	_krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
 
+## [5. I'd prefer the first ones actually](5-firstlines "first line")
+Display the first 10 lines of /etc/passwd
+
