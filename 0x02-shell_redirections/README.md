@@ -88,3 +88,10 @@ Example:
 ## [5. I'd prefer the first ones actually](5-firstlines "first line")
 Display the first 10 lines of /etc/passwd
 
+## [6. Line #2](6-third_line "third")
+Write a script that displays the third line of the file iacta.
+
+The file iacta will be in the working directory
+
+* You’re not allowed to use sed
+
